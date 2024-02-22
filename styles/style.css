@@ -352,7 +352,12 @@ textarea#msgCripto {
         padding: 40px 15px;
     }
 
+    #container__mensagem h1 {
+        font-size: 1.2rem;
+    }
+
     #container__mensagem span {
+        font-size: 1rem;
         padding-top: 15px;
     }
 
