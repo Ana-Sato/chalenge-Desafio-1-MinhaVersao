@@ -140,7 +140,7 @@ button {
     transition-duration: 0.4s;
 }
 
-button:hover {
+button:nth-child(1):hover {
     background-color: var(--cor-5);
 }
 
@@ -222,6 +222,13 @@ textarea#msgCripto {
     position: absolute;
     top: 85%;
 }
+
+button.btn-copiar:hover {
+    background-color: var(--cor-3);
+    color: var(--cor-4);
+    border: none;
+}
+
 
 @media (max-width: 1300px) {
 
